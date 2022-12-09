@@ -11,6 +11,8 @@ class User {
       const result = await response.json();
 
       this.avatar_url = result.avatar_url;
+      this.name = result.name;
+      this.bio = result.bio;
       this.followers = result.followers;
       this.following = result.following;
       this.public_repos = result.public_repos;
