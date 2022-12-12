@@ -4,8 +4,7 @@
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .master {
-  margin-left: 40%;
-  margin-right: 50%;
+  margin-left: 43%;
 }
 font {
   color: white;
@@ -56,7 +55,7 @@ img {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 50%;
+  margin-bottom: 100%;
 }
 
 a,
