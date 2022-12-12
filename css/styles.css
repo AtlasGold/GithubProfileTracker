@@ -15,9 +15,7 @@ html {
   flex-direction: column;
   justify-content: center;
   color: whitesmoke;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(36deg, #37a378 0%, #1d8993 100%);
+  background-image: repeating-linear-gradient(36deg, #37a378 0%, #1d8993 100%);
 }
 main {
   display: flex;
@@ -55,9 +53,10 @@ img {
 }
 
 .repo-list {
-  display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 50%;
 }
 
 a,

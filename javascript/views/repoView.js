@@ -7,7 +7,7 @@ export const renderRepositories = (repositories) => {
     markup += `
       <a href="${html_url}" class="repo-url" target="_blank">
         ${name}
-      </a>
+      </a><br>
     `;
   });
 
