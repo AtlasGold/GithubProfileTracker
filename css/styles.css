@@ -4,10 +4,17 @@
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .master {
-  margin-left: 43%;
+  display: flex;
+  justify-content: center;
+  height: 1em;
 }
 font {
   color: white;
+}
+li,
+a {
+  font-size: 1rem;
+  line-height: 2rem;
 }
 html {
   display: flex;
@@ -20,10 +27,10 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 300px;
+  width: 300rem;
 }
 .profile {
-  width: 300px;
+  width: 20rem;
 }
 .profile-name {
   display: grid;
@@ -45,6 +52,14 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
+.profile-bio {
+  font-style: italic;
+}
+
+.profile-url {
+  font-style: italic;
+}
 img {
   border-radius: 50%;
   width: 50%;
@@ -63,15 +78,11 @@ li::marker {
   color: var(--color-primary);
 }
 
-.profile-bio {
-  font-style: italic;
-}
-
 .filter input {
-  border-radius: 50px;
-  padding-left: 10px;
+  border-radius: 50em;
+  padding-left: 1em;
 }
 
 .filter button {
-  border-radius: 10px;
+  border-radius: 5em;
 }
