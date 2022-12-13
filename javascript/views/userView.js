@@ -17,7 +17,7 @@ export const renderUser = ({
       <img src="${avatar_url}" alt="Avatar">
       <div class="profile-details">
         <h6 class="profile-bio">”${bio}”<h6>
-        <a href="${html_url}" target="_blank">Visit Profile</a>
+        <a class="profile-url" href="${html_url}" target="_blank">Visit Profile</a>
       </div>
         </div>   
     <ul class="profile-list">
